@@ -1,0 +1,14 @@
+id: tft-4.45-480x854-mipi-st7701
+category: displays
+
+size: "4.45"
+panel: tft
+resolution: 480x854
+interface: [mipi]
+shape: rect
+
+versions:
+  - id: YDP445B003-V1
+    driver: ST7701S
+    touch: none
+    note: 40-pin FPC
